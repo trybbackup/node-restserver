@@ -15,6 +15,6 @@ if (process.env.NODE_ENV === 'dev'){
 	urlDB = 'mongodb://localhost:27017/cafe';
 }else
 {                         // {DBUser}// {Password}
-	urlDB = 'mongodb+srv://Trybbackup:6eSeFb9u6XlPPliS@cluster0.2kels.mongodb.net/cafe'
+process.env.NODE_ENV.jon;
 }
 process.env.URLDB = urlDB;
